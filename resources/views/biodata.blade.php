@@ -14,10 +14,10 @@
     <table>
         <tr>
             <th>NIM</th>
-            <td>10522199</td> </tr>
+            <td>10522205</td> </tr>
         <tr>
             <th>Nama Lengkap</th>
-            <td>Joe Bryan</td> </tr>
+            <td>Denny Ahmad</td> </tr>
         <tr>
             <th>Kelas</th>
             <td>SI-6</td> </tr>
@@ -26,7 +26,7 @@
             <td>Sistem Informasi</td> </tr>
         <tr>
             <th>Alamat Rumah</th>
-            <td>Jl. Cibarengkok No.229</td> </tr>
+            <td>Jl. Gagak 131B</td> </tr>
     </table>
 </body>
 </html>
