@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up()
+{
+    Schema::create('kategori', function (Blueprint $table) {
+        $table->id(); // Otomatis dibuat oleh Laravel
+        $table->string('nama_kategori', 150); // Tambahkan ini
+        $table->timestamps(); // Otomatis dibuat oleh Laravel
+    });
+}
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('kategori');
+    }
+};
